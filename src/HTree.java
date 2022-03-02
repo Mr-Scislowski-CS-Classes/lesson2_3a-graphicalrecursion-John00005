@@ -13,6 +13,6 @@ public class HTree {
     }
 
     public static void main(String[] args) {
-
+        draw(2, 0.5, 0.5, 0.5);
     }
 }
