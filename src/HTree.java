@@ -6,9 +6,6 @@ public class HTree {
         StdDraw.line(x - length / 2, y, x + length / 2, y);
         StdDraw.line(x - length / 2, y + length / 2, x - length / 2, y - length / 2);
         StdDraw.line(x + length / 2, y + length / 2, x + length / 2, y - length / 2);
-        if (n == 1) {
-            return;
-        }
         draw(n - 1, length / 2, x - length / 2, y + length / 2);
         draw(n - 1, length / 2, x - length / 2, y - length / 2);
         draw(n - 1, length / 2, x + length / 2, y + length / 2);
