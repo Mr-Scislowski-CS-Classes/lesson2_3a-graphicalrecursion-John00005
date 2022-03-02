@@ -5,7 +5,9 @@ public class RecursiveSquares {
         }
         draw(n - 1, x - length / 2, y + length / 2, length / 2);
         draw(n - 1, x + length / 2, y + length / 2, length / 2);
+        StdDraw.setPenColor(StdDraw.BLACK);
         StdDraw.square(x, y, length / 2);
+        StdDraw.setPenColor(StdDraw.GRAY);
         StdDraw.filledSquare(x, y, length / 2);
         draw(n - 1, x - length / 2, y - length / 2, length / 2);
         draw(n - 1, x + length / 2, y - length / 2, length / 2);
